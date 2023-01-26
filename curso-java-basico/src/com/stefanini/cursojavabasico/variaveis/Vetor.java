@@ -12,7 +12,7 @@ public class Vetor {
 		notas[1] = 4;
 		notas[9] = 7;
 		notas[7] = 8;
-		//notas[11] = 10;
+		
 		String[] carros = new String[] {"BMW I320", "Mercedes c180", "BMW M3", "Mercedes AMG", "Tesla Model S"};
 		
 		System.out.println(carros.length);
@@ -20,9 +20,6 @@ public class Vetor {
 		for (String carro : carros) {
 			System.out.println(carro);
 		}
-		
-	 /*for (int i = 0; i < notas.length; i++){
-	     System.out.println(notas[i]);
-	 }*/
+
 	}
 }
